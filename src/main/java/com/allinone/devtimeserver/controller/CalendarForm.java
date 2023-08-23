@@ -11,7 +11,7 @@ public class CalendarForm {
     Long id;
     Long memberId;
     @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm:ss")
-    @JsonFormat(pattern = "Yyyy-mm-dd HH:mm:ss")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     Date Date;
     Long projectId;
     String language;
